@@ -9,5 +9,14 @@ public class App {
         
         List<Genero> listaGenero = new ArrayList<>();
 
+        // add
+        Genero gen1 = new Genero("Test", "Test");
+
+        // remove
+
+        // update
+        
+        // alter
+
     }    
 }
