@@ -1,7 +1,12 @@
+package br.com.jkalango.dto;
+
 public class Genero {
     private String nome;
     private String descricao;
     
+    public Genero() {
+    }
+
     public Genero(String nome, String descricao) {
         this.nome = nome;
         this.descricao = descricao;
@@ -20,6 +25,9 @@ public class Genero {
         this.descricao = descricao;
     }
 
+    public String mostrarCategoria(Genero gen){
+        return String.format("Genero: %s %n Descricao: %s", gen.getNome(),getDescricao());
+    }
     
 
 }
