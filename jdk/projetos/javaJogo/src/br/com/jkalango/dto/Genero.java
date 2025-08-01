@@ -25,9 +25,6 @@ public class Genero {
         this.descricao = descricao;
     }
 
-    public String mostrarCategoria(Genero gen){
-        return String.format("Genero: %s %n Descricao: %s", gen.getNome(),getDescricao());
-    }
-    
+ 
 
 }
