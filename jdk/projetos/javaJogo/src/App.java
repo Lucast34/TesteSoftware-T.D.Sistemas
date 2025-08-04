@@ -27,8 +27,6 @@ public class App {
                     genero.getNome(),
                         genero.getDescricao());
         }
-
-
         // remove
 
         // update
