@@ -39,3 +39,10 @@ Nesse exemplo temos a classe os comentários dentro dessa classe e métodos, par
 Assim como javadoc, uma api
 
 3.       Apresente sobre JWT na documentação
+
+JWT(Json web token) é um padrão para autenticação e troca de informações.
+Nele é possível armazenar de forma segura e compacta no objetos JSON, este token é um código Base64 e pose ser assinado usando um segredo ou par de chaves privadas/públicas.
+
+Onde pode ser usado o JWT?
+
+O JWT é muito usado em um cenário de autorização. Depois que o usuário estiver conectado, é  observar cada solicitação e verificar  
